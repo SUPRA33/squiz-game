@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $white;
+    text-transform: uppercase;
+    font-family: $lightTitleFont;
+    text-align: center;
+    margin: 0 2rem;
+}
