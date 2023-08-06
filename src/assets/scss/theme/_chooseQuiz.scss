@@ -12,6 +12,9 @@
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1.7rem;
+    width: 100vw;
+    min-height: 100px;
 
     p, span {
         text-shadow: black 0px 0px 20px;
@@ -32,18 +35,20 @@
 
 .game-wish-item {
     width: 90vw;
-    height: 150px;
-    padding: 0.5rem;
-    margin-top: 1.7rem;
+    height: auto;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     .game-wish-description {
         margin-left: 1rem;
+
         p:first-child {
             font-family: $mediumFont;
             font-size: 1.3rem;
@@ -58,10 +63,13 @@
 
     .game-img {
         width: 180px;
+        max-width: 200px;
+        max-height: 95%;
         display: flex;
 
         img {
             width: 100%;
+            max-width: 100%;
             object-fit: contain;
         }
     }

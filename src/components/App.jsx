@@ -1,12 +1,12 @@
-// import Home from "./Home";
+import Home from "./Home";
 import "../assets/scss/styles.scss";
-import ChooseQuiz from "./ChooseQuiz";
+import RenderQuestions from "./RenderQuestions";
 
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <ChooseQuiz />
+      <Home />
+      {/* <RenderQuestions /> */}
     </div>
   );
 }
