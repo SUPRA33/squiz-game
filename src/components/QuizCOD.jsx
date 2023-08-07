@@ -2,7 +2,7 @@ const QuizCOD = [
   {
     questionNumber: 1,
     question: "Quel opus de la série n'a pas fait son apparition sur PC",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Call Of Duty - La grande offensive",
@@ -28,7 +28,7 @@ const QuizCOD = [
   {
     questionNumber: 2,
     question: "Pendant quelle période se déroule Call Of Duty 2",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "La guerre d'Algérie",
@@ -54,7 +54,7 @@ const QuizCOD = [
   {
     questionNumber: 3,
     question: "Pendant quelle période se déroule Call Of Duty Black Ops 1",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "La première guerre mondiale",
@@ -81,7 +81,7 @@ const QuizCOD = [
     questionNumber: 4,
     question:
       "Dans Call Of Duty 2, quel est le nom du sniper utilisé par les forces Américaines",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Kar98k",
@@ -108,7 +108,7 @@ const QuizCOD = [
     questionNumber: 5,
     question:
       "Quel est le premier opus de la saga à avoir développé les jetpacks",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Call Of Duty - Black Ops 3",
@@ -135,7 +135,7 @@ const QuizCOD = [
     questionNumber: 6,
     question:
       "Quel est le premier opus de la saga à avoir développé le système de classes",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Call Of Duty - Modern Warfare 2",
@@ -161,7 +161,7 @@ const QuizCOD = [
   {
     questionNumber: 7,
     question: "Quelle a été la première carte de Warzone ?",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Caldera",
@@ -188,7 +188,7 @@ const QuizCOD = [
     questionNumber: 8,
     question:
       "Dans quel opus découvrons nous pour la première fois le Capitaine Price",
-    purposals: [
+    proposals: [
       {
         id: 1,
         proposal: "Call Of Duty 1",

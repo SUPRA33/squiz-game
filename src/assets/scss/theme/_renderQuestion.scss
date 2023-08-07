@@ -36,7 +36,6 @@
 
     span {
         color: $green;
-        font-size: 2rem;
     }
 }
 
@@ -77,12 +76,23 @@
     color: white;
 }
 
-.next-question-btn {
+.correct {
+    background-color: #1C8F00;
+    color: white;
+}
+
+.incorrect {
+    background-color: #FF1919;
+    color: white;
+}
+
+.btn {
     background-color: black;
     padding: 0.5rem 1.5rem;
     border-radius: 50px;
     margin-top: 1rem;
     box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
+    cursor: pointer;
 
     p {
         font-family: $mainFont;
